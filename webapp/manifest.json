@@ -1,14 +1,19 @@
 {
     "_version": "1.30.0",
     "sap.app": {
-        "id": "MyApp",
+        "id": "MyApp_Ravi",
         "type": "application",
         "i18n": "i18n/i18n.properties",
         "applicationVersion": {
             "version": "1.0.0"
         },
         "title": "{{appTitle}}",
-        "description": "{{appDescription}}"
+        "description": "{{appDescription}}",
+        "sourceTemplate": {
+            "id": "@sap/ux-app-migrator:freestyle",
+            "version": "1.12.1",
+            "toolsId": "0b157838-8756-43be-9c5f-7b46715ffea3"
+        }
     },
     "sap.ui": {
         "technology": "UI5",
